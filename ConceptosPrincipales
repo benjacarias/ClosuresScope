@@ -1,0 +1,16 @@
+*SCOPE*
+
+Scope: Es el alcance que va a tener una variable dentro del código. En otras palabras, el Scope se encargará de decidir a que bloques de código va a acceder una variable.
+
+Scope Global: No están dentro de funciones o bloques, por lo tanto se puede acceder a ellas de manera global.
+
+Scope Local: Son las que se declaran dentro de las funciones y por lo tanto solo puede accederdonde fueron declaradas(en la funcion).
+
+Acceder a una variable en un bloque de codigo una una funcion
+y solamente en esta estructura, solo se podra llamar en esta estructura
+
+*Con let y const no podremos asignar un nuevo valor*
+
+Las variables globales son aquellas que se encuentran declaradas dentro de los bloques de código o funciones y sí importa si son declaradas con var, let o const, ya que var no tiene un scope local de bloque.
+
+El scope local es el entorno donde las variables locales solo se pueden acceder desde una estructura de código del programa. Este entorno se divide en scope de función y scope de bloque.
